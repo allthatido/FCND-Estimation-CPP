@@ -17,10 +17,6 @@ The improved integration scheme should result in an attitude estimator of < 0.1 
 
 - changes are reflected in [src/QuadEstimatorEKF.cpp#L103-L124](src/QuadEstimatorEKF.cpp#L103-L124)
 
-<p align="center">
- <img src="images/AttitudeEstimation.PNG" width="800" height="600" alt="Before" /> 
-</p>
-
  ----
 ### Step 3: Prediction Step ###
 #### Implement all of the elements of the prediction step for the estimator. ####
