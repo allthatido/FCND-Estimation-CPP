@@ -9,7 +9,7 @@ The calculated standard deviation should correctly capture ~68% of the sensor me
 
 - MeasuredStdDev_GPSPosXY = 0.67
 - MeasuredStdDev_AccelXY = .49
-- [Standard deviation calculator](sensorNoise/SensorNoise.py)
+- [Standard deviation calculator](/sensorNoise/sensorNoise.py)
  ----
 ### Step 2: Attitude Estimation ###
 #### Implement a better rate gyro attitude integration scheme in the UpdateFromIMU() function. ####
