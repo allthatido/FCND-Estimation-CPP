@@ -3,8 +3,6 @@ import os
 import sys
 os.chdir(os.path.dirname(sys.argv[0]))
 
-#graph1 = np.genfromtxt('../config/log/GraphSN1.txt', delimiter=',', dtype=None, encoding='utf8')
-#graph2 = np.genfromtxt('../config/log/GraphSN2.txt', delimiter=',', dtype=None, encoding='utf8')
 graph1 = np.genfromtxt('Graph1.txt', delimiter=',', dtype=None, encoding='utf8')
 graph2 = np.genfromtxt('Graph2.txt', delimiter=',', dtype=None, encoding='utf8')
 
